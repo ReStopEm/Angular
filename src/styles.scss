@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+$color-first:#5680E9;
+$color-second: #84CEEB;
+$color-third: #5AB9EA;
+$color-fourht: #C1C8E4;
+$color-fifth : #8860D0;
+
+body,html {
+    background-color: $color-second;
+    height: 100%;
+    margin:  0 auto;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.125em;
+}
+a{
+    text-decoration: none;
+}
+.container{
+  
+    widows: 80%;
+    margin:  0 auto;
+    padding: 1.3em;
+    display: grid;
+    grid-template-columns: 30% auto;
+    a{
+        color:  white;
+    } 
+}
+section{
+    widows: 80%;
+    margin:  0 auto;
+    padding: 2em;
+}

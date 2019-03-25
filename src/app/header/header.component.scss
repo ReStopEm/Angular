@@ -1,0 +1,36 @@
+$color-first:#5680E9;
+$color-second: #84CEEB;
+$color-third: #5AB9EA;
+$color-fourht: #C1C8E4;
+$color-fifth : #8860D0;
+
+header{
+    background: $color-fifth;
+    .logo{
+        font-weight: bold;
+    }
+    nav{
+        justify-self: right;
+        ul{
+            list-style-type:  none;
+            margin: 0;
+            padding:  0;
+            li{
+                float: left;
+                a{
+                    padding: 1.5em;
+                    text-transform: uppercase;
+                    font-size: .8em;
+                    &:hover{
+                        background:  $color-fourht; 
+                        
+                    }
+                    &:visited{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+

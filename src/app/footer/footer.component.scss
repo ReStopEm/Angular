@@ -1,0 +1,15 @@
+$color-first:#5680E9;
+$color-second: #84CEEB;
+$color-third: #5AB9EA;
+$color-fourht: #C1C8E4;
+$color-fifth : #8860D0;
+
+.footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+    background-color: $color-fifth;
+    text-align: center;
+}
