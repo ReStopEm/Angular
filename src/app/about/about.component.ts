@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   ownerName = 'Sasha';
+  
+
+  
   languages = ['c#','c++','Pascal', 'Vasik','Assembler'];
     constructor() { }
 
